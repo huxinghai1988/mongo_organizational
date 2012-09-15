@@ -1,4 +1,3 @@
-require "mongo_organizational/version"
 require "mongoid/organizational"
 
 # module MongoOrganizational
