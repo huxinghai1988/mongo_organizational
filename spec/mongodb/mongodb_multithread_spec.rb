@@ -1,4 +1,6 @@
+require File.expand_path("../../spec_helper", __FILE__)
 require File.expand_path('../mongodb_server', __FILE__)
+
 
 describe "mongodb standlle server multithread " do 
   before(:all) do

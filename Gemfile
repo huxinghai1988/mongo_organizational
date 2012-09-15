@@ -17,42 +17,35 @@ source 'https://rubygems.org'
 
 # gem 'therubyracer'
 
-group :development, :test do 
- 	gem 'rspec-rails'
+ 
+gem 'rails', '~> 3.2.8'
+gem 'rspec'		
 
- 	# Specify your gem's dependencies in mongo_organizational.gemspec
-	# gemspec
-	gem 'rails', '3.2.8'
+# Specify your gem's dependencies in mongo_organizational.gemspec
+# gemspec
 
-	# Bundle edge Rails instead:
-	# gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-	gem "sqlite3"
-	gem 'mongoid'
-	gem "mongoid_colored_logger", :github => "huacnlee/mongoid_colored_logger"
-	gem "bson_ext"
-	gem "mongo_session_store-rails3", :github => "hysios/mongo_session_store"
-	gem 'jquery-rails'
-	# To use ActiveModel has_secure_password
-	# gem 'bcrypt-ruby', '~> 3.0.0'
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-	# To use Jbuilder templates for JSON
-	# gem 'jbuilder'
+gem 'mongoid'   
+# To use ActiveModel has_secure_password
+# gem 'bcrypt-ruby', '~> 3.0.0'
 
-	# Use unicorn as the app server
-	# gem 'unicorn'
+# To use Jbuilder templates for JSON
+# gem 'jbuilder'
 
-	# Deploy with Capistrano
-	# gem 'capistrano'
+# Use unicorn as the app server
+# gem 'unicorn'
 
-	# To use debugger
-	gem 'debugger'
-	gem 'unicorn'
-	gem 'hirb'
-	gem 'thin'
-	gem 'sinatra'
-	gem 'sinatra-contrib'
-	# gem 'curb'
-	gem 'yajl-ruby'
-	# gem "sinatra-synchrony"
-end
+# Deploy with Capistrano
+# gem 'capistrano'
+
+# To use debugger
+gem 'debugger'  
+gem 'thin'
+gem 'sinatra'
+gem 'sinatra-contrib'
+# gem 'curb'
+gem 'yajl-ruby'
+# gem "sinatra-synchrony"

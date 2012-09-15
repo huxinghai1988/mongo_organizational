@@ -2,6 +2,9 @@ require "sinatra/base"
 require "sinatra/json"
 require 'yajl'
 require 'rack/session/cookie'
+require "mongoid"
+require "mongo_organizational"
+
 
 class MongodbServer < Sinatra::Base
   helpers Sinatra::JSON  

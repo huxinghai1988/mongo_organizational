@@ -1,3 +1,4 @@
+require 'mongoid'
 require "mongoid/organizational"
 
 # module MongoOrganizational
