@@ -38,8 +38,7 @@ module Mongoid
 
       def self.switch_organization(name)
         config = Mongoid.sessions[:default]
-        env = ENV["RAILS_ENV"] || ENV["RACK_ENV"] || "development"
-        Thread.current['mongoid_organization'] = name.nil? ? nil : config.merge(:database => name.to_s + '_' + env)
+        Thread.current['mongoid_organization'] = name.nil? ? nil : config.merge(:database => name.to_s)
       end
     end
   end
