@@ -1,9 +1,6 @@
 # MongoOrganizational
 
 Installation
-Add this line to your application's Gemfile:
-
-	gem 'mongo_organizational'
 
 Add this line to your application's Gemfile:
 
