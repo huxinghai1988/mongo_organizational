@@ -1,15 +1,14 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mongo_organizational/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "mongo_organizational"
-  gem.version       = MongoOrganizational::VERSION
+  gem.version       = "0.0.5"
   gem.authors       = ["lshgood"]
   gem.email         = ["liushaohong159@163.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "Replace mongo database , Rewrite mongo connection session 。"
+  gem.summary       = "Replace mongo database"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
