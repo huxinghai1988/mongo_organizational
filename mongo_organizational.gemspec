@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "mongo_organizational"
-  gem.version       = "0.0.5"
+  gem.version       = "0.0.6"
   gem.authors       = ["lshgood"]
   gem.email         = ["liushaohong159@163.com"]
-  gem.description   = "Replace mongo database , Rewrite mongo connection session 。"
+  gem.description   = "Replace mongo database , Rewrite mongo connection session."
   gem.summary       = "Replace mongo database"
   gem.homepage      = ""
 
